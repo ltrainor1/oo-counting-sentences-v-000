@@ -7,7 +7,12 @@ class String
   end
 
   def question?
-
+    if self.match(/\?$/) 
+      return false
+    else 
+      return true 
+    end 
+    
   end
 
   def exclamation?
