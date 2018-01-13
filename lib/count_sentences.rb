@@ -10,7 +10,7 @@ class String
     if self.end_with?("?") 
       return true
     else 
-      return false s 
+      return false  
     end 
     
   end
