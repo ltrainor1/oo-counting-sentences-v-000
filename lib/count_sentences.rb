@@ -7,10 +7,10 @@ class String
   end
 
   def question?
-    if self.match(/\?$/) 
-      return false
+    if self.end_with("?") 
+      return true
     else 
-      return true 
+      return false s 
     end 
     
   end
